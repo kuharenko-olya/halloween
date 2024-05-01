@@ -1,0 +1,18 @@
+@import "./../../../styles/vars.module";
+
+button {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: $orange;
+  padding: 14px 24px;
+  font-size: 14px;
+  color: $secondary;
+}
+
+.primary {
+  width: 125px;
+}
+
+.secondary {
+  width: 190px;
+}

@@ -1,5 +1,10 @@
 @import "fonts.module";
 
+body{
+  background: url('../assets/img/main-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .primary-font {
   font-family: 'Jolly Lodger';
