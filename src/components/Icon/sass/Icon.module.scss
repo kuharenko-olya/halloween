@@ -1,0 +1,22 @@
+@import "./../../../styles/vars.module";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+
+  button {
+    background: none;
+    padding: 0 10px;
+
+    svg {
+      color: $primary;
+    }
+  }
+
+  span {
+    color: $primary;
+    font-size: $font-size-md;
+  }
+}

@@ -1,12 +1,14 @@
 @import "./../../../styles/reset.module";
 @import "./../../../styles/vars.module";
 
+
 .header {
   padding: 48px 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: $secondary;
 
   .nav {
     ul {

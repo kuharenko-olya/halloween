@@ -1,10 +1,6 @@
 @import "fonts.module";
+@import "vars.module";
 
-body{
-  background: url('../assets/img/main-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .primary-font {
   font-family: 'Jolly Lodger';
@@ -12,4 +8,18 @@ body{
 
 .secondary-font {
   font-family: 'Rubik';
+}
+
+.title {
+  color: $orange;
+  font-size: $font-size-lg;
+  text-transform: uppercase;
+  font-family: 'Jolly Lodger';
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  background-color: $secondary;
+  padding-top: 100px;
 }

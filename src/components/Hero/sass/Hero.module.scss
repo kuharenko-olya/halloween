@@ -1,0 +1,37 @@
+@import "./../../../styles/vars.module";
+
+
+.main-background {
+  background-image: url("../../../assets/img/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 866px;
+
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 320px;
+  }
+
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    button {
+      background: none;
+      position: absolute;
+      top: 200px;
+    }
+  }
+
+}
+
+
+
+
+
+
