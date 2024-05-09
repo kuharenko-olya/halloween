@@ -18,26 +18,25 @@ const menu = [
 export function Header() {
     return (
         <>
-            <div className={styles['main-background']}>
-                <header className={styles.header}>
-                    <Link to="/">
-                        <Logo/>
-                    </Link>
-                    <nav className={styles.nav}>
-                        <ul className={common['secondary-font']}>
-                            {menu.map((item, index) => (
-                                <li key={index}>
-                                    <Link to={item.link}>{item.label}</Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </nav>
-                    <Button
-                        optionalString="Reservation"
-                        variant={BUTTON.PRIMARY}
-                    />
-                </header>
-            </div>
+
+            <header className={styles.header}>
+                <Link to="/">
+                    <Logo/>
+                </Link>
+                <nav className={styles.nav}>
+                    <ul className={common['secondary-font']}>
+                        {menu.map((item, index) => (
+                            <li key={index}>
+                                <Link to={item.link}>{item.label}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+                <Button
+                    optionalString="Reservation"
+                    variant={BUTTON.PRIMARY}
+                />
+            </header>
         </>
 
     )

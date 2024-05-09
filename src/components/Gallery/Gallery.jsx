@@ -12,7 +12,7 @@ import image10 from '../../assets/img/gallery/image10.png';
 
 export function Gallery() {
     return (
-        <div className={common['wrapper']}>
+        <section className={common['wrapper']}>
             <h3 className={common.title}>Halloween memories</h3>
             <div className={styles['gallery-container']}>
                     <img src={image1} alt="halloween memories"/>
@@ -26,6 +26,6 @@ export function Gallery() {
                     <img src={image9} alt="halloween memories"/>
                     <img src={image10} alt="halloween memories"/>
             </div>
-        </div>
+        </section>
     )
 }
