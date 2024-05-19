@@ -8,19 +8,12 @@ import toast, {Toaster} from "react-hot-toast";
 
 
 function BoardEvents() {
-
     const [dataIsLoaded, setDataIsLoaded] = useState(false);
-
     const [events, setEvents] = useState([]);
-
     const [currentPage, setCurrentPage] = useState(1);
     const [currentPerPage, setCurrentPerPage] = useState(12);
-
-
     const [totalItems, setTotalItems] = useState(0);
-
     let numbersPages = [];
-
 
     const getEvents = async () => {
         try {
@@ -34,19 +27,13 @@ function BoardEvents() {
         }
     };
 
-
     useEffect(() => {
         getEvents();
     }, [currentPage]);
 
-
-    console.log('events', events)
-
-
     const handleNavigatePage = (page) => {
         setCurrentPage(page)
     };
-
 
     function renderPages() {
         for (let i = 1; i <= Math.ceil(totalItems / currentPerPage); i++) {
@@ -55,7 +42,6 @@ function BoardEvents() {
     }
 
     renderPages()
-
 
     return (
         <section className={styles.events}>

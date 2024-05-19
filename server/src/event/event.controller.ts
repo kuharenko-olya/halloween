@@ -1,8 +1,7 @@
-import { Controller, Get, Query} from '@nestjs/common';
-import { EventService } from './event.service';
+import { Controller, Get, Query } from "@nestjs/common";
+import { EventService } from "./event.service";
 
-
-@Controller('events')
+@Controller("events")
 export class EventController {
   constructor(private readonly eventService: EventService) {}
 

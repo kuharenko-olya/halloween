@@ -13,6 +13,7 @@
      npm run dev
 
      Backend
+     cd server
      npm i
      npm run start
 

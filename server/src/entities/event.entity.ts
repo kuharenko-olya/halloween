@@ -1,6 +1,6 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
-@Entity('events')
+@Entity("events")
 export class Event {
   @PrimaryGeneratedColumn()
   id: number;
@@ -11,7 +11,7 @@ export class Event {
   @Column({ length: 255 })
   description: string;
 
-  @Column({ name: 'event_name', type: 'date', nullable: false })
+  @Column({ name: "event_name", type: "date", nullable: false })
   event_date: string;
 
   @Column({ length: 255 })
