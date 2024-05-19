@@ -4,10 +4,12 @@ import PropTypes from 'prop-types';
 export function Button({
                            optionalString,
                            variant,
-                           className
+                           className,
+                           onClick
                        }) {
     return (
         <button
+            onClick={onClick}
             type="button"
             className={`${styles.button} ${styles[variant]}
             ${className ? styles[className] : ''}`}
@@ -20,8 +22,9 @@ export function Button({
 
 Button.propTypes = {
     optionalString: PropTypes.string,
-    variant: PropTypes.string.isRequired,
+    variant: PropTypes.string,
     className: PropTypes.string,
+    onClick: PropTypes.func
 };
 
 Button.defaultProps = {

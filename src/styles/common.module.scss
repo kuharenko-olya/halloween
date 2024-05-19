@@ -1,6 +1,18 @@
 @import "fonts.module";
 @import "vars.module";
 
+body {
+  background-color: $secondary;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}
 
 .primary-font {
   font-family: 'Jolly Lodger';
@@ -16,10 +28,6 @@
   text-transform: uppercase;
   font-family: 'Jolly Lodger';
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-.wrapper {
-  background-color: $secondary;
-  padding-top: 100px;
-}

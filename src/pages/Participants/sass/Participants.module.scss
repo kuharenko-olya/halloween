@@ -1,0 +1,33 @@
+@import "./../../../styles/vars.module";
+
+.participants {
+
+  padding: 100px 0;
+
+  .title {
+    margin-bottom: 32px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .participants-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 770px;
+
+    .participant {
+      width: 155px;
+      border: 1px solid #89CFF0;
+      padding: 10px 10px;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        color: $primary;
+      }
+    }
+
+  }
+}

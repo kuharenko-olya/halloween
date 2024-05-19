@@ -1,4 +1,14 @@
 
+.decoration {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: -457px;
+  }
+}
+
+
 .gallery-container {
   display: flex;
   flex-direction: row;

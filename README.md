@@ -1,3 +1,20 @@
+
+# Test task React + Nest js
+
+# Base level
+- Events board page
+- Event participants page
+
+
+ # Run project
+    Frontend
+ -  npm i
+ -  npm run dev
+
+  # Backend 
+     - npm i
+     - npm run start:dev
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

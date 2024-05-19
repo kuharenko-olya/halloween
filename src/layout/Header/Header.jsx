@@ -7,11 +7,12 @@ import {BUTTON} from '../../constants/constants';
 
 
 const menu = [
-    {label: 'Home', link: '/home'},
-    {label: 'Gallery', link: '/gallery'},
-    {label: 'About Party', link: '/about'},
-    {label: 'Reservation', link: '/reservation'},
-    {label: 'Contacts', link: '/contacts'}
+    {label: 'Home', link: '/'},
+    {label: 'Gallery'},
+    {label: 'About Party'},
+    {label: 'Reservation'},
+    {label: 'Contacts'},
+    {label: 'Events', link: '/events'},
 ];
 
 

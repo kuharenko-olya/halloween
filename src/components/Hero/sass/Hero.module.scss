@@ -2,11 +2,10 @@
 
 
 .main-background {
-  background-image: url("../../../assets/img/main-bg.jpg");
-  background-repeat: no-repeat;
+  background: linear-gradient(180.00deg, rgba(0, 0, 0, 0) 69.987%, rgb(0, 0, 21) 100%), url("../../../assets/img/main-bg.jpg"),
+  no-repeat;
   background-size: cover;
-  height: 866px;
-
+  height: 900px;
 
   .hero-container {
     display: flex;
@@ -24,7 +23,7 @@
     button {
       background: none;
       position: absolute;
-      top: 200px;
+      top: 160px;
     }
   }
 

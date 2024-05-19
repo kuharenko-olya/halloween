@@ -1,18 +1,16 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Header} from './layout/Header/Header.jsx';
-import {Hero} from './components/Hero/Hero.jsx';
-import {Gallery} from './components/Gallery/Gallery.jsx';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import {About} from "./components/About/About.jsx";
+import HomePage from './pages/HomePage/HomePage.jsx';
+import Participants from './pages/Participants/Participants.jsx';
+import BoardEvents from './pages/BoardEvents/BoardEvents.jsx';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <BrowserRouter>
-            <Header/>
-            <Hero/>
-            <Gallery/>
-            <About/>
-        </BrowserRouter>
-    </React.StrictMode>
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/participants" element={<Participants/>}/>
+            <Route path="/events" element={<BoardEvents/>}/>
+        </Routes>
+    </BrowserRouter>
 )

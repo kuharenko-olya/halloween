@@ -6,10 +6,9 @@ import {ReactComponent as Ticket} from '../../assets/svg/ticket.svg';
 import {MapPin} from 'lucide-react';
 import {TextWithIcon} from "../TextWithIcon/TextWithIcon.jsx";
 
-
 export function About() {
     return (
-        <section className={common['wrapper']}>
+        <section className={common.section}>
             <h1 className={`${styles['about-title']} ${common['title']}`}>Join us</h1>
             <div className={styles['title-container']}>
                 <ArrowRight/>
@@ -19,7 +18,6 @@ export function About() {
             <p className={styles.description}>Our Halloween party this year will be an unforgettable experience,
                 filled <br/> with spooky decorations,
                 eerie music, thrilling games, and costume <br/> contests. Join us for a night of magic and fright!</p>
-
 
             <div className={styles['ticket-container']}>
                 <div className={`${styles['ticket']} ${styles['border']}`}>
@@ -60,4 +58,3 @@ export function About() {
         </section>
     )
 }
-;
