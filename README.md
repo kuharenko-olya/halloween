@@ -7,13 +7,15 @@
 
 
  # Run project
-    Frontend
- -  npm i
- -  npm run dev
 
-  # Backend 
-     - npm i
-     - npm run start:dev
+     Frontend
+     npm i
+     npm run dev
+
+     Backend
+     npm i
+     npm run start
+
 
 # React + Vite
 
