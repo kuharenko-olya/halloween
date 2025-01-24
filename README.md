@@ -1,6 +1,9 @@
 
 # Test task React + Nest js
 
+![main-bg](https://github.com/user-attachments/assets/503c1084-4be2-46b3-8816-1ddbb34af0aa)
+
+
 # Base level
 - Events board page
 - Event participants page
